@@ -1,4 +1,15 @@
 /* Theme */
-// eslint-disable-next-line import/prefer-default-export
 export const CHANGE_THEME = 'CHANGE_THEME';
 /* Theme */
+
+/* Repositories */
+export const GET_ALL_REPOSITORIES_REQUEST = 'GET_ALL_REPOSITORIES_REQUEST';
+export const GET_ALL_REPOSITORIES_SUCCESS = 'GET_ALL_REPOSITORIES_SUCCESS';
+export const GET_ALL_REPOSITORIES_FAILURE = 'GET_ALL_REPOSITORIES_FAILURE';
+/* Repositories */
+
+/* Contributors */
+export const GET_ALL_CONTRIBUTORS_REQUEST = 'GET_ALL_CONTRIBUTORS_REQUEST';
+export const GET_ALL_CONTRIBUTORS_SUCCESS = 'GET_ALL_CONTRIBUTORS_SUCCESS';
+export const GET_ALL_CONTRIBUTORS_FAILURE = 'GET_ALL_CONTRIBUTORS_FAILURE';
+/* Contributors */

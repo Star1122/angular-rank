@@ -9,6 +9,7 @@ import PerfectScrollbar from 'react-perfect-scrollbar';
 import { lightTheme, darkTheme } from 'theme';
 import { history } from 'store';
 import { loadThemeAction } from 'store/actions/theme';
+import { install } from 'store/actions/main';
 import Routes from 'routes';
 import TopBar from 'components/TopBar';
 
@@ -38,6 +39,7 @@ function App() {
 
   useEffect(() => {
     dispatch(loadThemeAction());
+    dispatch(install('angular'));
   }, [dispatch]);
 
   return (
