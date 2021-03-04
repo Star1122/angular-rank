@@ -7,6 +7,7 @@ import store from './store';
 import reportWebVitals from './reportWebVitals';
 
 import 'react-perfect-scrollbar/dist/css/styles.css';
+import 'react-virtualized/styles.css';
 
 import './style.css';
 
